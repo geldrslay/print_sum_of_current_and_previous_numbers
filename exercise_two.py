@@ -8,6 +8,7 @@ print ('Printing sum of previous and current number in a range (10)...')
 previous_number = 0 
 
 # Run through the numbers in the range (10)
-    for current_number in range (0,10):
-        sum = current_number + previous_number
-        
+for current_number in range (0,10):
+    sum = current_number + previous_number
+    print ('Current Number:', current_number, 'Previous Number:', previous_number, "Sum:", sum)
+    
