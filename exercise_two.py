@@ -3,3 +3,11 @@
 
 # Display Message 
 print ('Printing sum of previous and current number in a range (10)...')
+
+# Set 0 as the previous number to start the loop
+previous_number = 0 
+
+# Run through the numbers in the range (10)
+    for current_number in range (0,10):
+        sum = current_number + previous_number
+        
